@@ -7,7 +7,7 @@
 //
 
 #import "MVView2.h"
-#import "UIView+MDMInstantiateFromNib.h"
+#import "UIView+MVInstantiateFromNib.h"
 
 @implementation MVView2
 

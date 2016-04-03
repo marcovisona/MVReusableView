@@ -6,7 +6,7 @@
 //  Copyright © 2016 Matthew Morey. All rights reserved.
 //
 
-#import "UIView+MDMInstantiateFromNib.h"
+#import "UIView+MVInstantiateFromNib.h"
 
 @implementation UIView (MDMInstantiateFromNib)
 

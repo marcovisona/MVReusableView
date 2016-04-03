@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (MDMInstantiateFromNib)
+@interface UIView (MVInstantiateFromNib)
 
 - (void)instantiateFromNibNamed:(NSString*) nibName;
 - (NSLayoutConstraint *)pin:(id)item attribute:(NSLayoutAttribute)attribute;

@@ -19,7 +19,7 @@
 		BE0C7AD21CB1926A00FA68B8 /* MVView2.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C7ACE1CB1926A00FA68B8 /* MVView2.m */; };
 		BE0C7AD31CB1926A00FA68B8 /* MVView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE0C7ACF1CB1926A00FA68B8 /* MVView2.xib */; };
 		BE0C7AD61CB1930B00FA68B8 /* MDMView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C7AD51CB1930B00FA68B8 /* MDMView.m */; };
-		BE0C7AD91CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C7AD81CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.m */; };
+		BE0C7AD91CB1932400FA68B8 /* UIView+MVInstantiateFromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C7AD81CB1932400FA68B8 /* UIView+MVInstantiateFromNib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		BE0C7ACF1CB1926A00FA68B8 /* MVView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVView2.xib; sourceTree = "<group>"; };
 		BE0C7AD41CB1930B00FA68B8 /* MDMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMView.h; sourceTree = "<group>"; };
 		BE0C7AD51CB1930B00FA68B8 /* MDMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMView.m; sourceTree = "<group>"; };
-		BE0C7AD71CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDMInstantiateFromNib.h"; sourceTree = "<group>"; };
-		BE0C7AD81CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDMInstantiateFromNib.m"; sourceTree = "<group>"; };
+		BE0C7AD71CB1932400FA68B8 /* UIView+MVInstantiateFromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MVInstantiateFromNib.h"; sourceTree = "<group>"; };
+		BE0C7AD81CB1932400FA68B8 /* UIView+MVInstantiateFromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MVInstantiateFromNib.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				BE0C7ACF1CB1926A00FA68B8 /* MVView2.xib */,
 				BE0C7AD41CB1930B00FA68B8 /* MDMView.h */,
 				BE0C7AD51CB1930B00FA68B8 /* MDMView.m */,
-				BE0C7AD71CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.h */,
-				BE0C7AD81CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.m */,
+				BE0C7AD71CB1932400FA68B8 /* UIView+MVInstantiateFromNib.h */,
+				BE0C7AD81CB1932400FA68B8 /* UIView+MVInstantiateFromNib.m */,
 				BE0C7AA31CB1925000FA68B8 /* Assets.xcassets */,
 				BE0C7AA51CB1925000FA68B8 /* LaunchScreen.storyboard */,
 				BE0C7AA81CB1925000FA68B8 /* Info.plist */,
@@ -298,7 +298,7 @@
 				BE0C7AD21CB1926A00FA68B8 /* MVView2.m in Sources */,
 				BE0C7A9C1CB1925000FA68B8 /* AppDelegate.m in Sources */,
 				BE0C7A991CB1925000FA68B8 /* main.m in Sources */,
-				BE0C7AD91CB1932400FA68B8 /* UIView+MDMInstantiateFromNib.m in Sources */,
+				BE0C7AD91CB1932400FA68B8 /* UIView+MVInstantiateFromNib.m in Sources */,
 				BE0C7AD01CB1926A00FA68B8 /* MVView1.m in Sources */,
 				BE0C7AD61CB1930B00FA68B8 /* MDMView.m in Sources */,
 			);
@@ -520,6 +520,7 @@
 				BE0C7AC31CB1925100FA68B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0C7AC41CB1925100FA68B8 /* Build configuration list for PBXNativeTarget "MVReusableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				BE0C7AC61CB1925100FA68B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE0C7AC71CB1925100FA68B8 /* Build configuration list for PBXNativeTarget "MVReusableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				BE0C7AC91CB1925100FA68B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
